@@ -8,11 +8,34 @@
   },
   "keywords": [
     "strapi",
-    "node"
+    "translate",
+    "provider",
+    "google"
   ],
-  "author": "cabrera-evil",
+  "homepage": "https://github.com/cabrera-evil/strapi-provider-translate-google",
+  "bugs": {
+    "url": "https://github.com/cabrera-evil/strapi-provider-translate-google/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cabrera-evil/strapi-provider-translate-google"
+  },
+  "author": {
+    "name": "cabrera-evil",
+    "email": "douglacabrera.dev@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "cabrera-evil",
+      "email": "douglascabrera.dev@gmail.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "@google-cloud/translate": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=14 <=20",
+    "npm": ">=6.0.0"
   }
 }
