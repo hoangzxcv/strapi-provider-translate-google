@@ -2,9 +2,12 @@
   "name": "strapi-provider-translate-google",
   "version": "0.0.1",
   "description": "Custom Strapi Provider Plugin For Translation With Google API",
-  "main": "index.js",
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./lib/index.js"
   },
   "keywords": [
     "strapi",
@@ -32,7 +35,15 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/translate": "^8.2.0"
+    "@google-cloud/translate": "^8.2.0",
+    "bottleneck": "^2.19.5"
+  },
+  "devDependencies": {
+    "@strapi/plugin-i18n": "^4.24.1"
+  },
+  "peerDependencies": {
+    "lodash": "*",
+    "strapi-plugin-translate": "1.2.4"
   },
   "engines": {
     "node": ">=14 <=20",
