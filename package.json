@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-translate-google",
+  "name": "@hoangzxcv/strapi-provider-translate-google",
   "version": "0.0.3",
   "description": "Custom Strapi Provider Plugin For Translation With Google API",
   "main": "./lib",
