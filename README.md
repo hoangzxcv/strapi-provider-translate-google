@@ -54,7 +54,7 @@ module.exports = {
     enabled: true,
     config: {
       // Choose google as the provider
-      provider: "google",
+      provider: "gct",
       // Pass credentials and other options to the provider
       providerOptions: {
         // Your API key - required and wil cause errors if not provided
